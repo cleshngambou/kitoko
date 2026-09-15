@@ -13,11 +13,6 @@ workflows:
       - name: Synchroniser le projet iOS avec Capacitor
         script: npx cap sync ios
 
-      - name: Installer les CocoaPods
-        script: |
-          cd ios/App
-          pod install
-
       - name: Compiler une archive SANS signature de code
         script: |
           cd ios/App
