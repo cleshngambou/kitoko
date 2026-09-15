@@ -1,0 +1,9 @@
+{
+	"appId": "com.clesh.desire",
+	"appName": "DesireKitoko",
+	"webDir": "www",
+	"server": {
+		"url": "https://mydesires.net",
+		"cleartext": false
+	}
+}
